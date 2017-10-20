@@ -1,0 +1,9 @@
+
+ 
+
+ [class*="span"] {
+ float: left;
+ min-height: 10px;
+ margin-left: 10px;
+}
+ 

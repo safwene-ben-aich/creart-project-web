@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Add Work</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/icone_logo.png" />
+
+<link href='http://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.uniform.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("input:checkbox, input:radio, input:file, select").uniform();
+      });
+    </script>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script src="js/script.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  
+  
+  
+  
+  <script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() -500;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+  
+  <link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+
+
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+</head>
+
+<body>
+
+<div id="container">
+
+     <div id="header">
+     
+          <ul id="nav1">
+     <li><a href="connect.php" target="_blank">Connect</a></li>
+     <li><a href="subscribe.php" target="_blank">Subscribe</a></li> 
+     <li><a href="Help.html" target="_blank">Help</a></li>
+     </ul>
+     
+      <ul id="social">
+      
+        <li class="search1">
+
+
+<div id='search-box'>
+  <form action='/search' id='search-form' method='get' target='_top'>
+    <input id='search-text' name='q' placeholder='type here' type='text'/>
+    <button id='search-button' type='submit'><span>Search</span></button>
+  </form>
+</div>
+        </li>
+     <li><a href="http://twitter.com" target="_blank"><img src="images/Twitter.png" width="33" height="38"/></a></li>
+     <li><a href="http://facebook.com" target="_blank"><img src="images/Facebook.png" width="33" height="38"/></a></li>
+     <li><a href="http://instagram.com" target="_blank"><img src="images/Instagram.png" width="33" height="38"/></a></li>
+
+     </ul>
+     
+          <logo><a href="index.php" target="_blank"><img src="images/LogoSite.png" alt="logo" width="215" height="148" /></a></logo>
+     
+     
+     <!--<ul id="nav2">
+     <li><a href="index.php" target="_blank">Home</a></li> 
+     <li><a href="myaccount.php" target="_blank">Profil</a>
+     
+     
+ <ul>
+ <li><a href="myaccount.php">My account</a></li>
+ <li><a href="addwork.html">Add work</a></li>
+ <li><a href="#">My work</a></li>
+  <li><a href="addevents.html">Add Events</a></li>
+
+ </ul>
+   
+      </li>
+     <li><a href="cinema.html" target="_blank">Cinema</a>
+      <ul>
+ <li><a href="#">Category</a></li>
+ <li><a href="#">Hit Parade</a></li>
+ <li><a href="#">Most Viewed</a></li>
+  <li><a href="#">Latest</a></li>
+      </ul>
+
+     </li> 
+     <li><a href="music.html" target="_blank">Music</a>
+           <ul>
+ <li><a href="#">Category</a></li>
+ <li><a href="#">Hit Parade</a></li>
+ <li><a href="#">Most Viewed</a></li>
+  <li><a href="#">Latest</a></li>
+      </ul>
+     </li> 
+     <li><a href="photography.html" target="_blank">Photography</a>
+           <ul>
+           
+            <li><a href="#">Category</a></li>
+
+ <li><a href="#">Hit Parade</a></li>
+ <li><a href="#">Most Viewed</a></li>
+  <li><a href="#">Latest</a></li>
+      </ul>
+     </li>
+     <li><a href="literature.html" target="_blank">Literature</a>
+           <ul>
+ <li><a href="#">Category</a></li>
+ <li><a href="#">Hit Parade</a></li>
+ <li><a href="#">Most Viewed</a></li>
+  <li><a href="#">Latest</a></li>
+      </ul>
+     
+     </li> 
+     <li><a href="aboutus.html" target="_blank">About Us</a>
+           <ul>
+ <li><a href="#">Facebook</a></li>
+ <li><a href="#">Twiter</a></li>
+ <li><a href="#">Instagram</a></li>
+  <li><a href="#">E_mail</a></li>
+      </ul>
+     </li>
+     </ul>-->
+     
+     </div> <!--end header-->
+      <nav>
+    <div class="wrapper">
+      <ul id="menu" class="clearfix">
+            <li><a href="index.php" target="_blank">Home</a></li> 
+     <li><a href="myaccount.php" target="_blank">Profil</a>
+     
+     
+ <ul>
+ <li class="purple"><a href="myaccount.php">My account</a></li>
+ <li class="green"><a href="addwork.html">Add work</a></li>
+ <li class="aqua"><a href="#">My work</a></li>
+  <li class="red"><a href="addevents.html">Add Events</a></li>
+
+ </ul>
+   
+      </li>
+     <li><a href="cinema.html" target="_blank">Cinema</a>
+      <ul>
+ <li class="purple"><a href="#">Category</a></li>
+ <li class="green"><a href="#">Hit Parade</a></li>
+ <li class="aqua"><a href="#">Most Viewed</a></li>
+  <li class="red"><a href="#">Latest</a></li>
+      </ul>
+
+     </li> 
+     <li><a href="music.html" target="_blank">Music</a>
+           <ul>
+ <li class="purple"><a href="#">Category</a></li>
+ <li class="green"><a href="#">Hit Parade</a></li>
+ <li class="aqua"><a href="#">Most Viewed</a></li>
+  <li class="red"><a href="#">Latest</a></li>
+      </ul>
+     </li> 
+     <li><a href="photography.html" target="_blank">Photography</a>
+           <ul>
+           
+            <li class="purple"><a href="#">Category</a></li>
+
+ <li class="green"><a href="#">Hit Parade</a></li>
+ <li class="aqua"><a href="#">Most Viewed</a></li>
+  <li class="red"><a href="#">Latest</a></li>
+      </ul>
+     </li>
+     <li><a href="literature.html" target="_blank">Literature</a>
+           <ul>
+ <li class="purple"><a href="#">Category</a></li>
+ <li class="green"><a href="#">Hit Parade</a></li>
+ <li class="aqua"><a href="#">Most Viewed</a></li>
+  <li class="red"><a href="#">Latest</a></li>
+      </ul>
+     
+     </li> 
+     <li><a href="aboutus.html" target="_blank">About Us</a>
+           <ul>
+ <li class="purple"><a href="#">Facebook</a></li>
+ <li class="green"><a href="#">Twiter</a></li>
+ <li class="aqua"><a href="#">Instagram</a></li>
+  <li class="red"><a href="#">E_mail</a></li>
+      </ul>
+     </li>
+      </ul>
+    </div>
+  </nav>
+<script type="text/javascript">
+$(function(){
+  $('a[href="#"]').on('click', function(e){
+    e.preventDefault();
+  });
+  
+  $('#menu > li').on('mouseover', function(e){
+    $(this).find("ul:first").show();
+    $(this).find('> a').addClass('active');
+  }).on('mouseout', function(e){
+    $(this).find("ul:first").hide();
+    $(this).find('> a').removeClass('active');
+  });
+  
+  $('#menu li li').on('mouseover',function(e){
+    if($(this).has('ul').length) {
+      $(this).parent().addClass('expanded');
+    }
+    $('ul:first',this).parent().find('> a').addClass('active');
+    $('ul:first',this).show();
+  }).on('mouseout',function(e){
+    $(this).parent().removeClass('expanded');
+    $('ul:first',this).parent().find('> a').removeClass('active');
+    $('ul:first', this).hide();
+  });
+});
+</script>
+     
+     <div id="featured">
+     </div> <!--end featured-->
+     
+     
+        <div id="main">
+          <div id="content">
+
+
+
+
+
+
+<article>
+<h1>Add Your Masterpiece</h1>
+<form id="addwork" enctype="multipart/form-data" method="post" >
+	<ul id="uladdwork">
+        <li id="liaddwork">
+        	<label id="label_addwork" for="name">Your work title:</label>
+            <input id="input_addwork" placeholder="Title" type="text" required="required" maxlength="20" size="40" name="name" />
+        </li>
+        
+        
+                <li id="liaddwork">
+            <label id="label_addwork" for="car">Type:</label>
+            <select id="car">
+                <option>Cinema</option>
+                <option>Music</option>
+                <option>Photography</option>
+                <option>Literature</option>
+            </select>
+        </li>
+        
+        
+        <li id="liaddwork">
+        	<label id="label_addwork" for="email">Categorie:</label>
+            <input id="input_addwork" type="text" size="40" required="required" name="categorie" value="none" />
+        </li>
+        
+        
+        
+                <li id="liaddwork">
+
+
+
+
+
+
+
+
+<div class="upload_form_cont">
+                    <div>
+                        <div><label id="label_addwork" for="image_file">Please select image file:</label></div>
+                        <div><input  type="file" name="image_file" id="image_file" onchange="fileSelected();" /></div>
+                    </div>
+             
+                    <div>
+                        <input id="button_addwork" type="button"  value="Upload" onclick="startUploading()" action="upload.php" />
+                    </div>
+                    <div id="fileinfo">
+                        <div id="filename"></div>
+                        <div id="filesize"></div>
+                        <div id="filetype"></div>
+                        <div id="filedim"></div>
+                    </div>
+                    <div id="error">You should select valid image files only!</div>
+                    <div id="error2">An error occurred while uploading the file</div>
+                    <div id="abort">The upload has been canceled by the user or the browser dropped the connection</div>
+                    <div id="warnsize">Your file is very big. We can't accept it. Please select more small file</div>
+
+                    <div id="progress_info">
+                        <div id="progress"></div>
+                        <div id="progress_percent">&nbsp;</div>
+                        <div class="clear_both"></div>
+                        <div>
+                            <div id="speed">&nbsp;</div>
+                            <div id="remaining">&nbsp;</div>
+                            <div id="b_transfered">&nbsp;</div>
+                            <div class="clear_both"></div>
+                        </div>
+                        <div id="upload_response"></div>
+                    </div>
+
+                <img id="preview" />
+            </div>
+
+
+
+
+
+
+
+        </li>
+        
+        
+                <li id="liaddwork">
+        	<label id="label_addwork" for="message">Description :</label>
+            <textarea id="textarea_addwork" placeholder="Describe your masterpiece..." required="required" cols="50" rows="5" name="description"></textarea>
+		</li>
+        
+
+
+        <li id="liaddwork">
+			<label id="label_addwork"><input type="checkbox" name="conditions" required="required" value="yes" /> I accept the <a id="cond-about" href="aboutus.html" target="_blank">Terms and Conditions</a></label>
+        </li>
+</br>
+
+	</ul>
+   
+   
+   
+   
+   
+    <p>
+    
+        <button id="button_addwork"  type="submit"  class="action">ADD MASTERPICE</button>
+        <button id="button_addwork" type="reset" class="right">Reset</button>
+    </p>
+</form>
+</article>
+
+
+
+
+
+
+
+          
+     </div> <!--end content--> 
+     </div> <!--end main-->  
+     
+     
+<div class="arrierefooter">
+     <div id="footer">
+
+
+ <div class="footercolumn">
+            	<a href="index.php" target="_blank"><h2 class="p3">Home</h2></a>
+              
+            </div>
+            
+            <div class="footercolumn">
+         
+            	 <a href="myaccount.php" target="_blank"><h2 class="p3">Profil</h2></a></br>
+              
+                	<a href="myaccount.php">My account</a></br>
+                    <a href="addwork.html">Add work</a></br>
+                    <a href="#">My work</a></br>
+                    <a href="addevents.html">Add Events</a></br>
+           
+            </div>
+            <div class="footercolumn">
+            	<a href="cinema.html" target="_blank"><h2 class="p3">Cinema</h2></a></br>
+                
+                	<a href="#">Category</a></br>
+                    <a href="#">Hit Parade</a></br>
+                    <a href="#">Most Viewed</a></br>
+                    <a href="#">Latest</a></br>
+                
+            </div>
+           <div class="footercolumn">
+            	<a href="music.html" target="_blank"><h2 class="p3">Music</h2></a></br>
+                
+                   <a href="#">Category</a></br>
+                   <a href="#">Hit Parade</a></br>
+                   <a href="#">Most Viewed</a></br>
+                   <a href="#">Latest</a></br>
+                
+            </div>
+           <div class="footercolumn">
+            	<a href="photography.html" target="_blank"><h2 class="p3">Photography</h2></a></br>
+                 <a href="#">Category</a></br>
+
+                    <a href="#">Hit Parade</a></br>
+                    <a href="#">Most Viewed</a></br>
+                    <a href="#">Latest</a></br>
+                </ul>
+            </div>
+           <div class="footercolumn">
+            	<a href="literature.html" target="_blank"><h2 class="p3">Literature</h2></a></br>
+                
+                	<a href="#">Category</a></br>
+                    <a href="#">Hit Parade</a></br>
+                    <a href="#">Most Viewed</a></br>
+                    <a href="#">Latest</a></br>
+                </ul>
+            </div>
+                       <div class="footercolumn">
+            	<a href="aboutus.html" target="_blank"><h2 class="p3">About Us</h2></a></br>
+               
+                   <a href="#">Facebook</a></br>
+                   <a href="#">Twitter</a></br>
+                   <a href="#">Instagram</a></br>
+                   <a href="#">E_Mail</a></br>
+                </ul>
+            </div>
+
+ 
+     </div> <!--end footer-->
+          </div> <!--end arrierefooter-->
+                    <div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+          <div id="copyright">
+       <p>Copyright ©2015 Creart.com <img src="images/NextCopyright.png" width="61" height="21"/></p>
+        </div> <!--end copyright-->
+</div> <!--end contrainer-->
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+</body>
+</html>

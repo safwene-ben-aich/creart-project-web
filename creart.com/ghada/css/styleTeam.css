@@ -1,0 +1,49 @@
+
+
+
+p {
+	font-size: 1em; /* 16px */
+	line-height: 1.5; /* 24px */
+	margin: 0 0 1.5em 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal; /* reset default browser weight for our webfonts */
+	font-family: 'Myriad Pro', cursive;
+}
+
+
+strong {
+	font-weight:normal;
+	font-family: 'Myriad Pro', sans-serif;
+}
+
+/* Team and Contact */
+
+
+
+#team h1, #contact h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+
+}
+
+/* team */
+
+#team h3 {
+	font-size: 26px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+}
+#team h3, .job-position {
+	text-align: center;
+}
+#team .featurette {
+	text-align: center;
+	font-size: 21px;
+}
+#team h2.featurette-heading {
+	margin-bottom: 24px;
+}
+

@@ -1,0 +1,154 @@
+
+
+a{ text-decoration: none; color: #333}
+
+
+.commentaire{
+  color: #384958;
+}
+.h2Cinema{font-size: 1.5em; margin: 8px 0}
+.h2Cinema{
+  color: #384958;
+}
+.h2Cinema span.name{font-size: 1em}
+.h2Cinema span.num{font-size: 1.5em; font-style: italic}
+
+.h1Cinema{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.8em;
+  text-align: center;
+  margin: 15px 0;
+}
+
+
+
+.PostCommentaire{
+
+	display: none;
+}
+
+.starRating:not(old){
+  display        : inline-block;
+  width          : 15.5em;
+  height         : 2.3em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  
+  background      : url('star-off.svg');
+  
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 2.5em;
+  height          : 2.5em;
+  
+  background      : url('star-on.svg');
+  
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+.starRating{
+position : relative;
+left : +480px;
+}
+
+
+
+.basicButton{
+position : relative;
+left : -420px;
+top : -5px;
+
+}
+
+.uploader{
+position: relative;
+left: +340px;
+top : -45px;
+
+}
+
+.commentaire{
+position: relative;
+top :+30px;
+
+}
+
+
+
+#nb_view{
+position : relative;
+top : 80%;
+top : +20px;
+}
+#date_pub{
+position : relative;
+left : 492px;
+top : -25px;
+
+}
+
+
+.wrap_safwene{
+	width: 720px;
+	margin: 15px auto;
+	padding: 15px 10px;
+	background: white;
+	border: 2px solid #DBDBDB;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.item_safwene{
+	margin: 10px 0;
+	padding: 5px 10px;
+	background: #f9f9f9;
+	border-radius: 5px;
+}
+
+
+/*Loader style*/
+.ias_loader, .ias_trigger {
+	text-align:center;
+	margin: 30px 0 40px;
+}
+.ias_trigger a:link,
+.ias_trigger a:visited {
+    padding: 4px 50px;
+
+    background-color: #f9f9f9;
+    border: solid 1px #ddd;
+    border-radius: 2px;
+
+    font: bold 12px Arial, sans-serif;
+    color: #555;
+    text-decoration: none;
+}
+.ias_trigger a:hover,
+.ias_trigger a:active {
+    border-color: #ccc;
+}

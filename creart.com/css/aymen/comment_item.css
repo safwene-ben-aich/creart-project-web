@@ -1,0 +1,148 @@
+#The_comment
+{	border-top:1px dotted #c7c7c7;
+	margin-top:20 px ;
+	margin-bottom:20px;
+	}
+#comment_unity
+{
+
+	background-color: #384958  ;
+	margin-left: 160px;
+	margin-top: 15px ;
+    
+	padding: 40 px ;
+	width: 500px ;
+	 border-radius: 15px ;
+   
+
+	}
+	#delete_comment
+	{  
+	  	margin-left:590px; 
+	 
+		
+		}
+	#update_comment
+		{  
+	  	margin-left:625px; 
+ 
+		margin-bottom:-23px;
+		}	
+ #content_comment
+{
+ 
+ 	   
+ 
+	margin:-110px 0px 0 120px; ; 
+	 max-widht: 300 px ; padding-top:-30px;
+	overflow: auto ;
+	}
+
+ 
+#comment_zone 
+	{display:none;	
+	max-height:400px;  
+		height:auto ; 
+	
+	overflow:auto;
+  background-color: #e9eaed;/*#f6f7f8;*/
+ 
+		width : 700px ;
+	 
+	 margin-right:100px;
+	 margin-left:100px;
+	    }
+#comment_pic
+{
+ 
+      widht : 60px;
+	  height:110px;
+ margin-top:6px; 
+ margin-left:5px; 
+ clear:both;
+
+}		
+		
+#button_comment
+{  
+	}
+#comment_date 
+{ 
+	margin-top:35px;
+	margin-left:550px;
+	
+	}
+#comment_username
+	 {float:left;
+	 
+		 }
+		
+#the_comment {  }	
+#comment_username		
+{ margin-top:2px; 
+float:left;
+
+	
+	}
+#add_comment
+{    width : 700px ;
+	 height:150px;	 
+	 margin-right:100px;
+	 margin-left:100px;
+	 margin-top:5 px;
+	 background-color:#333;}	
+
+ 
+#textarea_comment
+{ margin-top:20px;
+  margin-left:30px;	}
+
+#user_name_comment
+{  float:left; 
+margin-top: 20px;
+margin-left:10px;
+	
+	} 
+#the_comment ul li
+
+{ display:inline;
+	
+	}	
+ 
+#button_restcomment			 
+{ margin: -18px 10px 90px 620px ;
+	
+	}
+
+#audio_player_zone
+{  
+ width:700px;
+ height:300px;
+ background-image:url(/creart.com/images/google-play-music-logo.jpg);
+ background-position:center; 
+   margin:10px 50px 0 100px ; 
+   
+	}	
+	 #item_options ul li {  display: inline; list-style-type: none;}
+#player{
+	margin-top:204px;
+	
+ }
+#photo_show
+{
+ width:700px;	
+ height:920px;
+	  background-position:center; 
+	   margin:10px 50px 0 100px ; border:20px; border-color:#036;
+	}	
+#literature_show
+{
+ width:700px;	
+ height:920px;
+	  background-position:center; 
+	   margin:10px 50px 0 100px ;  	
+	  	
+	}	 #video_tv
+		 { margin:50px 50px 0 100px ; 
+		 	}
+	
